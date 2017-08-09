@@ -1,0 +1,37 @@
+{
+  "name": "xpr-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fozzylyon/xpr-hapi.git"
+  },
+  "keywords": [
+    "hapi",
+    "xprmtnl"
+  ],
+  "author": "fozzylyon@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fozzylyon/xpr-hapi/issues"
+  },
+  "homepage": "https://github.com/fozzylyon/xpr-hapi#readme",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "xpr-experiment": "^1.1.0"
+  },
+  "peerDependencies": {
+    "feature-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-vstg": "^2.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-to-editorconfig": "^1.2.0"
+  }
+}
