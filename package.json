@@ -1,18 +1,15 @@
 {
   "name": "xpr-hapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hapi.js plugin for XPRMNTL feature-client",
   "main": "./lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fozzylyon/xpr-hapi.git"
   },
   "keywords": [
     "hapi",
-    "xprmtnl"
+    "xprmntl"
   ],
   "author": "fozzylyon@gmail.com",
   "license": "MIT",
@@ -21,11 +18,9 @@
   },
   "homepage": "https://github.com/fozzylyon/xpr-hapi#readme",
   "dependencies": {
-    "debug": "^2.1.0",
+    "debug": "^2.6.8",
+    "feature-client": "^1.0.3",
     "xpr-experiment": "^1.1.0"
-  },
-  "peerDependencies": {
-    "feature-client": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^4.4.1",
